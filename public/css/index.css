@@ -1,0 +1,74 @@
+nav.nav-link {
+    color: white !important;
+}
+
+img#logo-car {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    height: 50%;
+    width: 30%;
+}
+
+#quienes {
+    text-align: center;
+}
+
+.rojo {
+    color: #D63B42;
+}
+
+.bg-rojo {
+    background-color: #D63B42;
+}
+
+.list-group-item.active {
+    background-color: #D63B42 !important;
+    border-color:  #D63B42 !important;
+}
+
+.txt-justify{
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.white {
+    color: white;
+}
+
+.cliente-imgs {
+    display: flex;
+    justify-content: space-around;
+    opacity: 0.6;
+}
+
+#clientes{
+    text-align: center;
+}
+
+section#ubicacion {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+
+.cont-ubicación-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .cont-ubicación-desktop {
+      display: none;
+    }
+
+    .cont-ubicación-mobile {
+        display: block;
+    }
+}
