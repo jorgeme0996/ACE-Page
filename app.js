@@ -13,6 +13,6 @@ app.get('/', (req, res)=>{
     res.sendFile(__dirname + '/views/index.html')
 });
 
-app.listen(process.env.PORT || 3000, ()=> {
+app.listen(process.env.PORT || 4000, ()=> {
     console.log("Esta vivo")
 }); 

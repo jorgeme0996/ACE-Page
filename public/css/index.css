@@ -63,6 +63,16 @@ section#ubicacion {
     display: none;
 }
 
+a.servicio {
+    color: white;
+    text-decoration: none;
+}
+
+a.servicio:hover {
+    color: lightslategray;
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 1000px) {
     .cont-ubicación-desktop {
       display: none;
